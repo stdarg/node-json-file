@@ -1,0 +1,32 @@
+{
+	"name": "json-file-plus",
+	"version": "0.0.8",
+	"author": "Jordan Harband",
+	"description": "Read from and write to a JSON file, minimizing diffs and preserving formatting.",
+	"license": "MIT",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test/test.js"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/ljharb/node-json-file.git"
+	},
+	"keywords": [
+		"json",
+		"json file",
+		"formatting",
+		"read",
+		"write"
+	],
+	"dependencies": {
+		"is": "~0.2.6",
+		"node.extend": "~1.0.7"
+	},
+	"devDependencies": {
+		"tape": "~1.0.2",
+		"foreach": "~2.0.3",
+		"object-keys": "~0.3.0"
+	}
+}
+
